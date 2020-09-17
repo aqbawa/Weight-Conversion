@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(32, 38, 57, 1), rgba(63, 76, 119, 1));
+  height: 100vh;
+  color: #d0d3d4;
+}
+.container {
+  margin: 7%;
+  text-align: center;
+  justify-content: center;
+}
+.form {
+  padding: 30px;
+}
+input {
+  width: 40%;
+  height: 30px;
+}
+button {
+  cursor: pointer;
+  height: 30px;
+  width: 10%;
+  border: none;
+  font-size: 15px;
+  margin-right: 5px;
+}
+button:hover {
+  color: white;
+}
+#kg-btn {
+  background: #4169e1;
+}
+#g-btn {
+  background: #008080;
+}
+#oz-btn {
+  background: #ff7f50;
+}
